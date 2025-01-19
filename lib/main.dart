@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'book.dart'; // Import the Book widget
+import 'book.dart'; 
 
 void main() {
   runApp(const MainApp());
@@ -20,19 +20,19 @@ class MainApp extends StatelessWidget {
           child: ListView(
             children: const [
               Book(
-                coverImagePath: 'assets/images/book7.jpg',
+                coverImagePath: 'assets/images/book2.jpg',
                 title: 'Rich Dad, Poor Dad',
                 author: 'Robert T. Kiyosaki',
                 price: 1250,
               ),
               Book(
-                coverImagePath: 'assets/images/book2.jpg',
+                coverImagePath: 'assets/images/book7.jpg',
                 title: 'The Alchemist',
                 author: 'Coelho Paulo',
                 price: 1000,
               ),
               Book(
-                coverImagePath: 'assets/images/book2.jpg',
+                coverImagePath: 'assets/images/book9.jpg',
                 title: 'Men are From Mars',
                 author: 'John Gray',
                 price: 1500,
